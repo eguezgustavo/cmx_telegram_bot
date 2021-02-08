@@ -1,8 +1,8 @@
 from cmx_telegram_bot import create_bot, Message, Command, Storage
 
 
-PASS = '28111982'
-TOKEN = '1405647753:AAHv42ey2zZ8IqTj4DBgJlzKfqj4tHFRw3o'
+PASS = '********'
+TOKEN = '**********************'
 
 
 def on_message(message: Message, storage: Storage):
