@@ -1,17 +1,17 @@
 import typing
 
-from cmxtelegrambot.core.services.bot import BotService
-from cmxtelegrambot.core.services.input_command import InputCommandService
+from .core.services.bot import BotService
+from .core.services.input_command import InputCommandService
 
-from cmxtelegrambot.dependency_injection import get_storage, get_dispatcher, get_bot_service, get_input_service, get_updater, get_authentication_service
-from cmxtelegrambot.use_cases.command_registration import register_command
-from cmxtelegrambot.use_cases.input_registration import register_input
-from cmxtelegrambot.use_cases.use_authentication import use_authentication
-from cmxtelegrambot.use_cases.use_start import use_start, CommandDescription
+from .dependency_injection import get_storage, get_dispatcher, get_bot_service, get_input_service, get_updater, get_authentication_service
+from .use_cases.command_registration import register_command
+from .use_cases.input_registration import register_input
+from .use_cases.use_authentication import use_authentication
+from .use_cases.use_start import use_start, CommandDescription
 
-from cmxtelegrambot.core.entities.message import Message
-from cmxtelegrambot.core.entities.command import Command
-from cmxtelegrambot.core.entities.storage import Storage
+from .core.entities.message import Message
+from .core.entities.command import Command
+from .core.entities.storage import Storage
 
 
 class Bot:
