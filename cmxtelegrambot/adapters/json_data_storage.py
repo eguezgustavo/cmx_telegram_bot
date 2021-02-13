@@ -1,11 +1,13 @@
+import cmxtelegrambot
 import json
 import os
 from pathlib import Path
 
-from ..core.data.chat import InternatChatStorage
+from cmxtelegrambot.core.data.chat import InternatChatStorage
 
 DATA_FILE_NAME = 'data.json'
 PATH = f'{Path.home()}/telegram_bot'
+
 
 class JsonChatDataStorage(InternatChatStorage):
 

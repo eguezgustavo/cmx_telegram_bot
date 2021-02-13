@@ -1,10 +1,10 @@
 from telegram.ext import Updater
 
-from .adapters.json_data_storage import JsonChatDataStorage
-from .core.services.bot import BotService
-from .core.services.input_command import InputCommandService
-from .core.services.authentication import AuthenticationService
-from .core.data.chat import InternatChatStorage
+from cmxtelegrambot.adapters.json_data_storage import JsonChatDataStorage
+from cmxtelegrambot.core.services.bot import BotService
+from cmxtelegrambot.core.services.input_command import InputCommandService
+from cmxtelegrambot.core.services.authentication import AuthenticationService
+from cmxtelegrambot.core.data.chat import InternatChatStorage
 
 
 def get_storage() -> InternatChatStorage:

@@ -2,9 +2,9 @@ import logging
 
 from telegram.ext import MessageHandler, Filters
 
-from ..data.chat import InternatChatStorage
-from ..entities.message import Message
-from ..entities.storage import Storage
+from cmxtelegrambot.core.data.chat import InternatChatStorage
+from cmxtelegrambot.core.entities.message import Message
+from cmxtelegrambot.core.entities.storage import Storage
 
 
 class BotService:

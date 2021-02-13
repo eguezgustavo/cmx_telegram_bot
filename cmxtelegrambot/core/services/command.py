@@ -1,9 +1,9 @@
 from telegram.ext import CommandHandler
 
-from ..data.chat import InternatChatStorage
-from ..services.authentication import AuthenticationService
-from ..entities.command import Command
-from ..entities.storage import Storage
+from cmxtelegrambot.core.data.chat import InternatChatStorage
+from cmxtelegrambot.core.services.authentication import AuthenticationService
+from cmxtelegrambot.core.entities.command import Command
+from cmxtelegrambot.core.entities.storage import Storage
 
 
 class CommandService:

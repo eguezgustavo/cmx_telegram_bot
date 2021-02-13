@@ -1,4 +1,4 @@
-from ..data.chat import InternatChatStorage
+from cmxtelegrambot.core.data.chat import InternatChatStorage
 
 
 class AuthenticationService:

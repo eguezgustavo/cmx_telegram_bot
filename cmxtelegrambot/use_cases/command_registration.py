@@ -1,8 +1,8 @@
-from ..adapters.json_data_storage import JsonChatDataStorage
-from ..core.services.command import CommandService
-from ..core.services.authentication import AuthenticationService
-from ..core.services.bot import BotService
-from ..dependency_injection import get_storage
+from cmxtelegrambot.adapters.json_data_storage import JsonChatDataStorage
+from cmxtelegrambot.core.services.command import CommandService
+from cmxtelegrambot.core.services.authentication import AuthenticationService
+from cmxtelegrambot.core.services.bot import BotService
+from cmxtelegrambot.dependency_injection import get_storage
 
 
 def register_command(command_name: str, dispatcher, auth_service: AuthenticationService, callback, secure=False, security_error_message=None):

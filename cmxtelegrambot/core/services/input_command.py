@@ -1,10 +1,8 @@
-import enum
-
 from telegram.ext import CommandHandler
 
-from ..data.chat import InternatChatStorage
-from ..entities.command import Command
-from ..entities.message import Message
+from cmxtelegrambot.core.data.chat import InternatChatStorage
+from cmxtelegrambot.core.entities.command import Command
+from cmxtelegrambot.core.entities.message import Message
 
 
 class InputCommandService:

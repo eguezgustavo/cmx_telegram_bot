@@ -1,7 +1,7 @@
 import collections
 import typing
 
-from ..core.entities.command import Command
+from cmxtelegrambot.core.entities.command import Command
 
 CommandDescription = collections.namedtuple('CommandDescription', ['name', 'description'])
 

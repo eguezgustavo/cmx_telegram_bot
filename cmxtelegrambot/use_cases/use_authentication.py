@@ -1,10 +1,10 @@
-from ..core.services.input_command import InputCommandService
-from ..core.services.bot import BotService
-from ..adapters.json_data_storage import JsonChatDataStorage
-from ..core.data.chat import InternatChatStorage
-from ..core.entities.message import Message
-from ..core.services.authentication import AuthenticationService
-from ..dependency_injection import get_storage
+from cmxtelegrambot.core.services.input_command import InputCommandService
+from cmxtelegrambot.core.services.bot import BotService
+from cmxtelegrambot.adapters.json_data_storage import JsonChatDataStorage
+from cmxtelegrambot.core.data.chat import InternatChatStorage
+from cmxtelegrambot.core.entities.message import Message
+from cmxtelegrambot.core.services.authentication import AuthenticationService
+from cmxtelegrambot.dependency_injection import get_storage
 
 
 def use_authentication(
