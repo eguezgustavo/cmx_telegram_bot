@@ -1,7 +1,9 @@
-from cmx_telegram_bot import create_bot, Message, Command, Storage
+import os
 
-PASS = '********'
-TOKEN = '**********************'
+from cmxtelegrambot import create_bot, Message, Command, Storage
+
+PASS = os.environ.get('BOT_PASS')
+TOKEN = os.environ.get('BOT_TOKEN')
 
 
 def on_hello(command: Command, storage: Storage):
